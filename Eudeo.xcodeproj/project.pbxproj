@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4310BFD46AD972A8ED29C980 /* Pods_Eudeo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2873A47F044AC5373BE052 /* Pods_Eudeo.framework */; };
+		CC160071248448E100910472 /* EDOTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC160070248448E100910472 /* EDOTabBarController.swift */; };
+		CC5DD48324834EBD00CD3917 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5DD48224834EBD00CD3917 /* AppDelegate.swift */; };
+		CC5DD48524834EBD00CD3917 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5DD48424834EBD00CD3917 /* SceneDelegate.swift */; };
+		CC5DD48724834EBD00CD3917 /* EDOPlaceholderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5DD48624834EBD00CD3917 /* EDOPlaceholderViewController.swift */; };
+		CC5DD48C24834EBE00CD3917 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC5DD48B24834EBE00CD3917 /* Assets.xcassets */; };
+		CC5DD48F24834EBE00CD3917 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC5DD48D24834EBE00CD3917 /* LaunchScreen.storyboard */; };
+		CC5DD49724834F7100CD3917 /* EDONavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5DD49624834F7100CD3917 /* EDONavigationController.swift */; };
+		CC5DD49B2483518000CD3917 /* EDOPlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5DD49A2483518000CD3917 /* EDOPlaceholderView.swift */; };
+		CC5DD4A2248355E200CD3917 /* EDOViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5DD4A1248355E200CD3917 /* EDOViewController.swift */; };
+		CC5DD4A62483561A00CD3917 /* EDOSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5DD4A52483561A00CD3917 /* EDOSplashViewController.swift */; };
+		CC5DD4A82483562500CD3917 /* EDOLogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5DD4A72483562500CD3917 /* EDOLogInViewController.swift */; };
+		CC5DD4AA2483563700CD3917 /* EDOSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5DD4A92483563700CD3917 /* EDOSignUpViewController.swift */; };
+		CC5DD4AC2483565D00CD3917 /* EDOSplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5DD4AB2483565D00CD3917 /* EDOSplashView.swift */; };
+		CC5DD4AE2483566600CD3917 /* EDOLogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5DD4AD2483566600CD3917 /* EDOLogInView.swift */; };
+		CC5DD4B02483567000CD3917 /* EDOSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5DD4AF2483567000CD3917 /* EDOSignUpView.swift */; };
+		CC64D8642484389C000BC168 /* EDOTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC64D8632484389C000BC168 /* EDOTextField.swift */; };
+		CCD5AB4D2484451900915428 /* EDOColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD5AB4C2484451900915428 /* EDOColor.swift */; };
+		CCD5AB4F2484475F00915428 /* EDOHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD5AB4E2484475F00915428 /* EDOHomeViewController.swift */; };
+		CCD5AB512484476F00915428 /* EDOPostingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD5AB502484476F00915428 /* EDOPostingViewController.swift */; };
+		CCD5AB532484478900915428 /* EDOProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD5AB522484478900915428 /* EDOProfileViewController.swift */; };
+		CCD5AB552484479200915428 /* EDOHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD5AB542484479200915428 /* EDOHomeView.swift */; };
+		CCD5AB572484479B00915428 /* EDOPostingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD5AB562484479B00915428 /* EDOPostingView.swift */; };
+		CCD5AB59248447A400915428 /* EDOProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD5AB58248447A400915428 /* EDOProfileView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		951BB28AEFC714C2E4FC6E0D /* Pods-Eudeo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eudeo.debug.xcconfig"; path = "Target Support Files/Pods-Eudeo/Pods-Eudeo.debug.xcconfig"; sourceTree = "<group>"; };
+		9F7E9C259B69FECAB9F4A94F /* Pods-Eudeo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eudeo.release.xcconfig"; path = "Target Support Files/Pods-Eudeo/Pods-Eudeo.release.xcconfig"; sourceTree = "<group>"; };
+		BF2873A47F044AC5373BE052 /* Pods_Eudeo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eudeo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC160070248448E100910472 /* EDOTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EDOTabBarController.swift; sourceTree = "<group>"; };
+		CC5DD47F24834EBD00CD3917 /* Eudeo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eudeo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC5DD48224834EBD00CD3917 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC5DD48424834EBD00CD3917 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CC5DD48624834EBD00CD3917 /* EDOPlaceholderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EDOPlaceholderViewController.swift; sourceTree = "<group>"; };
+		CC5DD48B24834EBE00CD3917 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC5DD48E24834EBE00CD3917 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC5DD49024834EBE00CD3917 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC5DD49624834F7100CD3917 /* EDONavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EDONavigationController.swift; sourceTree = "<group>"; };
+		CC5DD49A2483518000CD3917 /* EDOPlaceholderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EDOPlaceholderView.swift; sourceTree = "<group>"; };
+		CC5DD4A1248355E200CD3917 /* EDOViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EDOViewController.swift; sourceTree = "<group>"; };
+		CC5DD4A52483561A00CD3917 /* EDOSplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EDOSplashViewController.swift; sourceTree = "<group>"; };
+		CC5DD4A72483562500CD3917 /* EDOLogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EDOLogInViewController.swift; sourceTree = "<group>"; };
+		CC5DD4A92483563700CD3917 /* EDOSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EDOSignUpViewController.swift; sourceTree = "<group>"; };
+		CC5DD4AB2483565D00CD3917 /* EDOSplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EDOSplashView.swift; sourceTree = "<group>"; };
+		CC5DD4AD2483566600CD3917 /* EDOLogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EDOLogInView.swift; sourceTree = "<group>"; };
+		CC5DD4AF2483567000CD3917 /* EDOSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EDOSignUpView.swift; sourceTree = "<group>"; };
+		CC64D8632484389C000BC168 /* EDOTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EDOTextField.swift; sourceTree = "<group>"; };
+		CCD5AB4C2484451900915428 /* EDOColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EDOColor.swift; sourceTree = "<group>"; };
+		CCD5AB4E2484475F00915428 /* EDOHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EDOHomeViewController.swift; sourceTree = "<group>"; };
+		CCD5AB502484476F00915428 /* EDOPostingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EDOPostingViewController.swift; sourceTree = "<group>"; };
+		CCD5AB522484478900915428 /* EDOProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EDOProfileViewController.swift; sourceTree = "<group>"; };
+		CCD5AB542484479200915428 /* EDOHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EDOHomeView.swift; sourceTree = "<group>"; };
+		CCD5AB562484479B00915428 /* EDOPostingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EDOPostingView.swift; sourceTree = "<group>"; };
+		CCD5AB58248447A400915428 /* EDOProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EDOProfileView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC5DD47C24834EBD00CD3917 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4310BFD46AD972A8ED29C980 /* Pods_Eudeo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B93217D486D6F776991842B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF2873A47F044AC5373BE052 /* Pods_Eudeo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC1600722484504900910472 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CC1600742484537E00910472 /* UiColor */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		CC1600732484537200910472 /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+				CC64D8632484389C000BC168 /* EDOTextField.swift */,
+			);
+			name = UITextField;
+			sourceTree = "<group>";
+		};
+		CC1600742484537E00910472 /* UiColor */ = {
+			isa = PBXGroup;
+			children = (
+				CCD5AB4C2484451900915428 /* EDOColor.swift */,
+			);
+			name = UiColor;
+			sourceTree = "<group>";
+		};
+		CC5DD47624834EBD00CD3917 = {
+			isa = PBXGroup;
+			children = (
+				CC5DD48124834EBD00CD3917 /* Eudeo */,
+				CC5DD48024834EBD00CD3917 /* Products */,
+				DA4A8FB2B85A706038C8C824 /* Pods */,
+				9B93217D486D6F776991842B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CC5DD48024834EBD00CD3917 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC5DD47F24834EBD00CD3917 /* Eudeo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC5DD48124834EBD00CD3917 /* Eudeo */ = {
+			isa = PBXGroup;
+			children = (
+				CC5DD48224834EBD00CD3917 /* AppDelegate.swift */,
+				CC5DD48424834EBD00CD3917 /* SceneDelegate.swift */,
+				CC5DD4B32483568F00CD3917 /* Placeholder */,
+				CC5DD4A02483555B00CD3917 /* Onboarding */,
+				CC5DD49D2483553600CD3917 /* Main */,
+				CC1600722484504900910472 /* Extensions */,
+				CC5DD4A42483560B00CD3917 /* Sub classes */,
+				CC5DD49C2483552A00CD3917 /* Navigation */,
+				CC5DD49E2483553E00CD3917 /* Support */,
+			);
+			path = Eudeo;
+			sourceTree = "<group>";
+		};
+		CC5DD49C2483552A00CD3917 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				CC5DD49624834F7100CD3917 /* EDONavigationController.swift */,
+				CC160070248448E100910472 /* EDOTabBarController.swift */,
+			);
+			name = Navigation;
+			sourceTree = "<group>";
+		};
+		CC5DD49D2483553600CD3917 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CCD5AB5A248447A700915428 /* Home */,
+				CCD5AB5B248447AC00915428 /* Posting */,
+				CCD5AB5C248447B300915428 /* Profile */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		CC5DD49E2483553E00CD3917 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				CC5DD48B24834EBE00CD3917 /* Assets.xcassets */,
+				CC5DD48D24834EBE00CD3917 /* LaunchScreen.storyboard */,
+				CC5DD49024834EBE00CD3917 /* Info.plist */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		CC5DD4A02483555B00CD3917 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				CC5DD4A52483561A00CD3917 /* EDOSplashViewController.swift */,
+				CC5DD4AB2483565D00CD3917 /* EDOSplashView.swift */,
+				CC5DD4B22483567700CD3917 /* Log in */,
+				CC5DD4B12483567300CD3917 /* Sign up */,
+			);
+			name = Onboarding;
+			sourceTree = "<group>";
+		};
+		CC5DD4A3248355EC00CD3917 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CC5DD4A1248355E200CD3917 /* EDOViewController.swift */,
+			);
+			name = UIViewController;
+			sourceTree = "<group>";
+		};
+		CC5DD4A42483560B00CD3917 /* Sub classes */ = {
+			isa = PBXGroup;
+			children = (
+				CC1600732484537200910472 /* UITextField */,
+				CC5DD4A3248355EC00CD3917 /* UIViewController */,
+			);
+			name = "Sub classes";
+			sourceTree = "<group>";
+		};
+		CC5DD4B12483567300CD3917 /* Sign up */ = {
+			isa = PBXGroup;
+			children = (
+				CC5DD4A92483563700CD3917 /* EDOSignUpViewController.swift */,
+				CC5DD4AF2483567000CD3917 /* EDOSignUpView.swift */,
+			);
+			name = "Sign up";
+			sourceTree = "<group>";
+		};
+		CC5DD4B22483567700CD3917 /* Log in */ = {
+			isa = PBXGroup;
+			children = (
+				CC5DD4A72483562500CD3917 /* EDOLogInViewController.swift */,
+				CC5DD4AD2483566600CD3917 /* EDOLogInView.swift */,
+			);
+			name = "Log in";
+			sourceTree = "<group>";
+		};
+		CC5DD4B32483568F00CD3917 /* Placeholder */ = {
+			isa = PBXGroup;
+			children = (
+				CC5DD48624834EBD00CD3917 /* EDOPlaceholderViewController.swift */,
+				CC5DD49A2483518000CD3917 /* EDOPlaceholderView.swift */,
+			);
+			name = Placeholder;
+			sourceTree = "<group>";
+		};
+		CCD5AB5A248447A700915428 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CCD5AB4E2484475F00915428 /* EDOHomeViewController.swift */,
+				CCD5AB542484479200915428 /* EDOHomeView.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		CCD5AB5B248447AC00915428 /* Posting */ = {
+			isa = PBXGroup;
+			children = (
+				CCD5AB502484476F00915428 /* EDOPostingViewController.swift */,
+				CCD5AB562484479B00915428 /* EDOPostingView.swift */,
+			);
+			name = Posting;
+			sourceTree = "<group>";
+		};
+		CCD5AB5C248447B300915428 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				CCD5AB522484478900915428 /* EDOProfileViewController.swift */,
+				CCD5AB58248447A400915428 /* EDOProfileView.swift */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		DA4A8FB2B85A706038C8C824 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				951BB28AEFC714C2E4FC6E0D /* Pods-Eudeo.debug.xcconfig */,
+				9F7E9C259B69FECAB9F4A94F /* Pods-Eudeo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC5DD47E24834EBD00CD3917 /* Eudeo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC5DD49324834EBE00CD3917 /* Build configuration list for PBXNativeTarget "Eudeo" */;
+			buildPhases = (
+				E8B453874B33F7211A18E714 /* [CP] Check Pods Manifest.lock */,
+				CC5DD47B24834EBD00CD3917 /* Sources */,
+				CC5DD47C24834EBD00CD3917 /* Frameworks */,
+				CC5DD47D24834EBD00CD3917 /* Resources */,
+				5BCC144434D155EA01A287D4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Eudeo;
+			productName = Eudeo;
+			productReference = CC5DD47F24834EBD00CD3917 /* Eudeo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC5DD47724834EBD00CD3917 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EDO;
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Leonce Arceneaux";
+				TargetAttributes = {
+					CC5DD47E24834EBD00CD3917 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = CC5DD47A24834EBD00CD3917 /* Build configuration list for PBXProject "Eudeo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC5DD47624834EBD00CD3917;
+			productRefGroup = CC5DD48024834EBD00CD3917 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC5DD47E24834EBD00CD3917 /* Eudeo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC5DD47D24834EBD00CD3917 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC5DD48F24834EBE00CD3917 /* LaunchScreen.storyboard in Resources */,
+				CC5DD48C24834EBE00CD3917 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5BCC144434D155EA01A287D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eudeo/Pods-Eudeo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eudeo/Pods-Eudeo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Eudeo/Pods-Eudeo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8B453874B33F7211A18E714 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Eudeo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC5DD47B24834EBD00CD3917 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC5DD4A62483561A00CD3917 /* EDOSplashViewController.swift in Sources */,
+				CC5DD4AE2483566600CD3917 /* EDOLogInView.swift in Sources */,
+				CCD5AB4D2484451900915428 /* EDOColor.swift in Sources */,
+				CC64D8642484389C000BC168 /* EDOTextField.swift in Sources */,
+				CCD5AB512484476F00915428 /* EDOPostingViewController.swift in Sources */,
+				CCD5AB572484479B00915428 /* EDOPostingView.swift in Sources */,
+				CC5DD49724834F7100CD3917 /* EDONavigationController.swift in Sources */,
+				CCD5AB552484479200915428 /* EDOHomeView.swift in Sources */,
+				CC5DD4AC2483565D00CD3917 /* EDOSplashView.swift in Sources */,
+				CC5DD4A2248355E200CD3917 /* EDOViewController.swift in Sources */,
+				CC5DD48724834EBD00CD3917 /* EDOPlaceholderViewController.swift in Sources */,
+				CCD5AB59248447A400915428 /* EDOProfileView.swift in Sources */,
+				CCD5AB4F2484475F00915428 /* EDOHomeViewController.swift in Sources */,
+				CC5DD48324834EBD00CD3917 /* AppDelegate.swift in Sources */,
+				CC5DD4B02483567000CD3917 /* EDOSignUpView.swift in Sources */,
+				CC5DD4AA2483563700CD3917 /* EDOSignUpViewController.swift in Sources */,
+				CCD5AB532484478900915428 /* EDOProfileViewController.swift in Sources */,
+				CC5DD48524834EBD00CD3917 /* SceneDelegate.swift in Sources */,
+				CC5DD49B2483518000CD3917 /* EDOPlaceholderView.swift in Sources */,
+				CC5DD4A82483562500CD3917 /* EDOLogInViewController.swift in Sources */,
+				CC160071248448E100910472 /* EDOTabBarController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC5DD48D24834EBE00CD3917 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC5DD48E24834EBE00CD3917 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC5DD49124834EBE00CD3917 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC5DD49224834EBE00CD3917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC5DD49424834EBE00CD3917 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 951BB28AEFC714C2E4FC6E0D /* Pods-Eudeo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6F7326ZM4K;
+				INFOPLIST_FILE = Eudeo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eudeo.development.Eudeo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CC5DD49524834EBE00CD3917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F7E9C259B69FECAB9F4A94F /* Pods-Eudeo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6F7326ZM4K;
+				INFOPLIST_FILE = Eudeo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eudeo.development.Eudeo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC5DD47A24834EBD00CD3917 /* Build configuration list for PBXProject "Eudeo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC5DD49124834EBE00CD3917 /* Debug */,
+				CC5DD49224834EBE00CD3917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC5DD49324834EBE00CD3917 /* Build configuration list for PBXNativeTarget "Eudeo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC5DD49424834EBE00CD3917 /* Debug */,
+				CC5DD49524834EBE00CD3917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC5DD47724834EBD00CD3917 /* Project object */;
+}

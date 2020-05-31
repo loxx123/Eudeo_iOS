@@ -1,0 +1,6 @@
+framework module Pods_Eudeo {
+  umbrella header "Pods-Eudeo-umbrella.h"
+
+  export *
+  module * { export * }
+}
