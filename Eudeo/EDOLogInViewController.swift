@@ -20,21 +20,42 @@ class EDOLogInViewController: EDOViewController {
   }
   
   override func loadView() {
-    view = EDOPlaceholderView()
+    view = EDOLogInView()
   }
   
-  private func contentView()-> EDOPlaceholderView{
-    return view as! EDOPlaceholderView
+  private func contentView()-> EDOLogInView{
+    return view as! EDOLogInView
   }
   
   override func viewDidLoad() {
     super.viewDidLoad()
     self.titles = "Log In"
+    self.contentView().nextButton.addTarget(self, action: #selector(doLogInPressed), for: .touchUpInside)
+    
   }
   
   override func viewWillAppear(_ animated: Bool) {
     super.viewWillAppear(animated)
     self.clearNavBar = false;
+  }
+  
+  @objc func doLogInPressed () {
+    
+    #warning("Jacob, replace this method with networking")
+    
+    let otherAlert = UIAlertController(title: "Coming Soon",
+                                       message: "If this action is successful, the user will log into the app up and then move to the tabbarcontroller.",
+                                       preferredStyle: .alert)
+    
+    let printSomething = UIAlertAction(title: "Okay", style: .default) { _ in
+      
+    }
+    
+    otherAlert.addAction(printSomething)
+    
+    present(otherAlert, animated: true, completion: {
+      
+    })
   }
   
 }

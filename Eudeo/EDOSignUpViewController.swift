@@ -20,21 +20,43 @@ class EDOSignUpViewController: EDOViewController {
   }
   
   override func loadView() {
-    view = EDOPlaceholderView()
+    view = EDOSignUpView()
   }
   
-  private func contentView()-> EDOPlaceholderView{
-    return view as! EDOPlaceholderView
+  private func contentView()-> EDOSignUpView{
+    return view as! EDOSignUpView
   }
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    self.titles = "Sign Up"    
+    self.titles = "Sign Up"
+    
+    self.contentView().nextButton.addTarget(self, action: #selector(doSignUpPressed), for: .touchUpInside)
+
   }
   
   override func viewWillAppear(_ animated: Bool) {
     super.viewWillAppear(animated)
     self.clearNavBar = false;
 
+  }
+  
+  @objc func doSignUpPressed () {
+    
+    #warning("Jacob, replace this method with networking")
+    
+    let otherAlert = UIAlertController(title: "Coming Soon",
+                                       message: "If this action is successful, the user will be signed up and then move to the tabbarcontroller.",
+                                       preferredStyle: .alert)
+    
+    let printSomething = UIAlertAction(title: "Okay", style: .default) { _ in
+      
+    }
+    
+    otherAlert.addAction(printSomething)
+    
+    present(otherAlert, animated: true, completion: {
+      
+    })
   }
 }
