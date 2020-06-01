@@ -1,4 +1,5 @@
 PODS:
+  - AnyCodable-FlightSchool (0.2.3)
   - BigInt (5.0.0)
   - EosioSwift (0.4.0):
     - BigInt (~> 5.0)
@@ -23,12 +24,14 @@ PODS:
     - PromiseKit/CorePromise
 
 DEPENDENCIES:
+  - AnyCodable-FlightSchool (~> 0.2.3)
   - EosioSwift (~> 0.4.0)
   - EosioSwiftAbieosSerializationProvider (~> 0.4.0)
   - EosioSwiftSoftkeySignatureProvider (~> 0.4.0)
 
 SPEC REPOS:
   trunk:
+    - AnyCodable-FlightSchool
     - BigInt
     - EosioSwift
     - EosioSwiftAbieosSerializationProvider
@@ -38,6 +41,7 @@ SPEC REPOS:
     - PromiseKit
 
 SPEC CHECKSUMS:
+  AnyCodable-FlightSchool: cf53737f4bd1d9187cea453679734506e478fff3
   BigInt: 74b4d88367b0e819d9f77393549226d36faeb0d8
   EosioSwift: 2965d63ded78cbe4d1849ccf96aea5a8d92cc643
   EosioSwiftAbieosSerializationProvider: eba59a5335200175ccb71546388b81e98cd3213d
@@ -46,6 +50,6 @@ SPEC CHECKSUMS:
   GRKOpenSSLFramework: 4abc733a8fcbc37060619a86a54202d2938dd70e
   PromiseKit: 28fda91c973cc377875d8c0ea4f973013c05b6db
 
-PODFILE CHECKSUM: 7eb31f22dfb490890a4b6d6fbcb9b6a79db44ab4
+PODFILE CHECKSUM: e2a9ab1e799762780854f513bf92a8531f187fcf
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.9.2
