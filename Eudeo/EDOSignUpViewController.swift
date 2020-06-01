@@ -43,20 +43,33 @@ class EDOSignUpViewController: EDOViewController {
   
   @objc func doSignUpPressed () {
     
-    #warning("Jacob, replace this method with networking")
-    
-    let otherAlert = UIAlertController(title: "Coming Soon",
-                                       message: "If this action is successful, the user will be signed up and then move to the tabbarcontroller.",
-                                       preferredStyle: .alert)
-    
-    let printSomething = UIAlertAction(title: "Okay", style: .default) { _ in
-      
+    guard let firstName = self.contentView().firstNameTextField.text,
+        let lastName = self.contentView().lastNameTextField.text,
+        let phoneNumber = self.contentView().phoneNumberTextField.text else {
+            let alert = UIAlertController(title: "Login Error",
+                                          message: "Please fill in all fields",
+                                          preferredStyle: .alert)
+            
+            let okAction = UIAlertAction(title: "Okay", style: .default)
+            
+            alert.addAction(okAction)
+            
+            present(alert, animated: true, completion: {
+                
+            })
+            return
     }
     
-    otherAlert.addAction(printSomething)
+    let (pk, pub) = generateRandomKeyPair(enclave: .Secp256k1)
+    let fullName = firstName + " " + lastName
     
-    present(otherAlert, animated: true, completion: {
-      
-    })
+    EDOEOSUtilities.shared.signup(pubKey: pub!.rawPublicKey(), fullName: fullName, cellPhone: phoneNumber) { (response, error) in
+        if let error = error {
+            return
+        }
+        
+        
+        // TODO: do something
+    }
   }
 }

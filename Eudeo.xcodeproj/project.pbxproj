@@ -8,6 +8,45 @@
 
 /* Begin PBXBuildFile section */
 		4310BFD46AD972A8ED29C980 /* Pods_Eudeo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF2873A47F044AC5373BE052 /* Pods_Eudeo.framework */; };
+		8046354124848132004509A5 /* curve-specific.inc in Sources */ = {isa = PBXBuildFile; fileRef = 8046351F24848132004509A5 /* curve-specific.inc */; };
+		8046354224848132004509A5 /* platform-specific.inc in Sources */ = {isa = PBXBuildFile; fileRef = 8046352824848132004509A5 /* platform-specific.inc */; };
+		8046354324848132004509A5 /* secp256k1.table in Resources */ = {isa = PBXBuildFile; fileRef = 8046352A24848132004509A5 /* secp256k1.table */; };
+		8046354424848132004509A5 /* bip39.c in Sources */ = {isa = PBXBuildFile; fileRef = 8046353324848132004509A5 /* bip39.c */; };
+		8046354524848132004509A5 /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = 8046353424848132004509A5 /* hmac.c */; };
+		8046354624848132004509A5 /* sha2.c in Sources */ = {isa = PBXBuildFile; fileRef = 8046353524848132004509A5 /* sha2.c */; };
+		8046354724848132004509A5 /* rand.c in Sources */ = {isa = PBXBuildFile; fileRef = 8046353624848132004509A5 /* rand.c */; };
+		8046354824848132004509A5 /* curves.c in Sources */ = {isa = PBXBuildFile; fileRef = 8046353724848132004509A5 /* curves.c */; };
+		8046354924848132004509A5 /* secp256k1.c in Sources */ = {isa = PBXBuildFile; fileRef = 8046353824848132004509A5 /* secp256k1.c */; };
+		8046354A24848132004509A5 /* bignum.c in Sources */ = {isa = PBXBuildFile; fileRef = 8046353924848132004509A5 /* bignum.c */; };
+		8046354B24848132004509A5 /* ripemd160.c in Sources */ = {isa = PBXBuildFile; fileRef = 8046353A24848132004509A5 /* ripemd160.c */; };
+		8046354C24848132004509A5 /* uECC.c in Sources */ = {isa = PBXBuildFile; fileRef = 8046353B24848132004509A5 /* uECC.c */; };
+		8046354D24848132004509A5 /* bip32.c in Sources */ = {isa = PBXBuildFile; fileRef = 8046353C24848132004509A5 /* bip32.c */; };
+		8046354E24848132004509A5 /* sha3.c in Sources */ = {isa = PBXBuildFile; fileRef = 8046353D24848132004509A5 /* sha3.c */; };
+		8046354F24848132004509A5 /* base58.c in Sources */ = {isa = PBXBuildFile; fileRef = 8046353E24848132004509A5 /* base58.c */; };
+		8046355024848132004509A5 /* ecdsa.c in Sources */ = {isa = PBXBuildFile; fileRef = 8046353F24848132004509A5 /* ecdsa.c */; };
+		8046355124848132004509A5 /* pbkdf2.c in Sources */ = {isa = PBXBuildFile; fileRef = 8046354024848132004509A5 /* pbkdf2.c */; };
+		8046357924848158004509A5 /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8046355524848158004509A5 /* Crypto.swift */; };
+		8046357A24848158004509A5 /* TransactionUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8046355824848158004509A5 /* TransactionUtil.swift */; };
+		8046357B24848158004509A5 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8046355924848158004509A5 /* Transaction.swift */; };
+		8046357C24848158004509A5 /* Contract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8046355B24848158004509A5 /* Contract.swift */; };
+		8046357D24848158004509A5 /* AccountUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8046355D24848158004509A5 /* AccountUtil.swift */; };
+		8046357E24848158004509A5 /* ResourceUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8046355F24848158004509A5 /* ResourceUtil.swift */; };
+		8046357F24848158004509A5 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8046356124848158004509A5 /* Currency.swift */; };
+		8046358024848158004509A5 /* Signature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8046356324848158004509A5 /* Signature.swift */; };
+		8046358124848158004509A5 /* ChainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8046356624848158004509A5 /* ChainRouter.swift */; };
+		8046358224848158004509A5 /* EOSRPC+Chain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8046356724848158004509A5 /* EOSRPC+Chain.swift */; };
+		8046358324848158004509A5 /* EOSRPC+History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8046356924848158004509A5 /* EOSRPC+History.swift */; };
+		8046358424848158004509A5 /* HistoryRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8046356A24848158004509A5 /* HistoryRouter.swift */; };
+		8046358524848158004509A5 /* EOSRPC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8046356C24848158004509A5 /* EOSRPC.swift */; };
+		8046358624848158004509A5 /* BaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8046356D24848158004509A5 /* BaseRouter.swift */; };
+		8046358724848158004509A5 /* KeyPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8046356F24848158004509A5 /* KeyPair.swift */; };
+		8046358824848158004509A5 /* PublicKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8046357024848158004509A5 /* PublicKey.swift */; };
+		8046358924848158004509A5 /* PrivateKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8046357124848158004509A5 /* PrivateKey.swift */; };
+		8046358A24848158004509A5 /* ChainModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8046357324848158004509A5 /* ChainModels.swift */; };
+		8046358B24848158004509A5 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8046357424848158004509A5 /* Error.swift */; };
+		8046358C24848158004509A5 /* BigInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8046357524848158004509A5 /* BigInt.swift */; };
+		8046358D24848158004509A5 /* SEWallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8046357824848158004509A5 /* SEWallet.swift */; };
+		8046358F24848235004509A5 /* EDOEOSUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8046358E24848235004509A5 /* EDOEOSUtilities.swift */; };
 		CC160071248448E100910472 /* EDOTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC160070248448E100910472 /* EDOTabBarController.swift */; };
 		CC5DD48324834EBD00CD3917 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5DD48224834EBD00CD3917 /* AppDelegate.swift */; };
 		CC5DD48524834EBD00CD3917 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5DD48424834EBD00CD3917 /* SceneDelegate.swift */; };
@@ -34,6 +73,66 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8046351A24848132004509A5 /* uECC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uECC.h; sourceTree = "<group>"; };
+		8046351B24848132004509A5 /* ripemd160.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ripemd160.h; sourceTree = "<group>"; };
+		8046351C24848132004509A5 /* asm_arm.inc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asm_arm.inc.h; sourceTree = "<group>"; };
+		8046351D24848132004509A5 /* uECC_vli.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uECC_vli.h; sourceTree = "<group>"; };
+		8046351E24848132004509A5 /* libbase58.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libbase58.h; sourceTree = "<group>"; };
+		8046351F24848132004509A5 /* curve-specific.inc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.pascal; path = "curve-specific.inc"; sourceTree = "<group>"; };
+		8046352024848132004509A5 /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		8046352124848132004509A5 /* sha3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha3.h; sourceTree = "<group>"; };
+		8046352224848132004509A5 /* bip32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bip32.h; sourceTree = "<group>"; };
+		8046352324848132004509A5 /* ecdsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecdsa.h; sourceTree = "<group>"; };
+		8046352424848132004509A5 /* pbkdf2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pbkdf2.h; sourceTree = "<group>"; };
+		8046352524848132004509A5 /* options.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = options.h; sourceTree = "<group>"; };
+		8046352624848132004509A5 /* bip39_english.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bip39_english.h; sourceTree = "<group>"; };
+		8046352724848132004509A5 /* sha2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha2.h; sourceTree = "<group>"; };
+		8046352824848132004509A5 /* platform-specific.inc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.pascal; path = "platform-specific.inc"; sourceTree = "<group>"; };
+		8046352924848132004509A5 /* hmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
+		8046352A24848132004509A5 /* secp256k1.table */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = secp256k1.table; sourceTree = "<group>"; };
+		8046352B24848132004509A5 /* bip39.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bip39.h; sourceTree = "<group>"; };
+		8046352C24848132004509A5 /* macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = macros.h; sourceTree = "<group>"; };
+		8046352D24848132004509A5 /* rand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rand.h; sourceTree = "<group>"; };
+		8046352E24848132004509A5 /* curves.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = curves.h; sourceTree = "<group>"; };
+		8046352F24848132004509A5 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		8046353024848132004509A5 /* bignum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bignum.h; sourceTree = "<group>"; };
+		8046353124848132004509A5 /* secp256k1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secp256k1.h; sourceTree = "<group>"; };
+		8046353324848132004509A5 /* bip39.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bip39.c; sourceTree = "<group>"; };
+		8046353424848132004509A5 /* hmac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hmac.c; sourceTree = "<group>"; };
+		8046353524848132004509A5 /* sha2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha2.c; sourceTree = "<group>"; };
+		8046353624848132004509A5 /* rand.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rand.c; sourceTree = "<group>"; };
+		8046353724848132004509A5 /* curves.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = curves.c; sourceTree = "<group>"; };
+		8046353824848132004509A5 /* secp256k1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = secp256k1.c; sourceTree = "<group>"; };
+		8046353924848132004509A5 /* bignum.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bignum.c; sourceTree = "<group>"; };
+		8046353A24848132004509A5 /* ripemd160.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ripemd160.c; sourceTree = "<group>"; };
+		8046353B24848132004509A5 /* uECC.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uECC.c; sourceTree = "<group>"; };
+		8046353C24848132004509A5 /* bip32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bip32.c; sourceTree = "<group>"; };
+		8046353D24848132004509A5 /* sha3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha3.c; sourceTree = "<group>"; };
+		8046353E24848132004509A5 /* base58.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = base58.c; sourceTree = "<group>"; };
+		8046353F24848132004509A5 /* ecdsa.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ecdsa.c; sourceTree = "<group>"; };
+		8046354024848132004509A5 /* pbkdf2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pbkdf2.c; sourceTree = "<group>"; };
+		8046355524848158004509A5 /* Crypto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
+		8046355824848158004509A5 /* TransactionUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionUtil.swift; sourceTree = "<group>"; };
+		8046355924848158004509A5 /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		8046355B24848158004509A5 /* Contract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contract.swift; sourceTree = "<group>"; };
+		8046355D24848158004509A5 /* AccountUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountUtil.swift; sourceTree = "<group>"; };
+		8046355F24848158004509A5 /* ResourceUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceUtil.swift; sourceTree = "<group>"; };
+		8046356124848158004509A5 /* Currency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		8046356324848158004509A5 /* Signature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Signature.swift; sourceTree = "<group>"; };
+		8046356624848158004509A5 /* ChainRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChainRouter.swift; sourceTree = "<group>"; };
+		8046356724848158004509A5 /* EOSRPC+Chain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EOSRPC+Chain.swift"; sourceTree = "<group>"; };
+		8046356924848158004509A5 /* EOSRPC+History.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EOSRPC+History.swift"; sourceTree = "<group>"; };
+		8046356A24848158004509A5 /* HistoryRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryRouter.swift; sourceTree = "<group>"; };
+		8046356C24848158004509A5 /* EOSRPC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EOSRPC.swift; sourceTree = "<group>"; };
+		8046356D24848158004509A5 /* BaseRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseRouter.swift; sourceTree = "<group>"; };
+		8046356F24848158004509A5 /* KeyPair.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyPair.swift; sourceTree = "<group>"; };
+		8046357024848158004509A5 /* PublicKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PublicKey.swift; sourceTree = "<group>"; };
+		8046357124848158004509A5 /* PrivateKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivateKey.swift; sourceTree = "<group>"; };
+		8046357324848158004509A5 /* ChainModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChainModels.swift; sourceTree = "<group>"; };
+		8046357424848158004509A5 /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		8046357524848158004509A5 /* BigInt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BigInt.swift; sourceTree = "<group>"; };
+		8046357824848158004509A5 /* SEWallet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SEWallet.swift; sourceTree = "<group>"; };
+		8046358E24848235004509A5 /* EDOEOSUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EDOEOSUtilities.swift; sourceTree = "<group>"; };
 		951BB28AEFC714C2E4FC6E0D /* Pods-Eudeo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eudeo.debug.xcconfig"; path = "Target Support Files/Pods-Eudeo/Pods-Eudeo.debug.xcconfig"; sourceTree = "<group>"; };
 		9F7E9C259B69FECAB9F4A94F /* Pods-Eudeo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eudeo.release.xcconfig"; path = "Target Support Files/Pods-Eudeo/Pods-Eudeo.release.xcconfig"; sourceTree = "<group>"; };
 		BF2873A47F044AC5373BE052 /* Pods_Eudeo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eudeo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,6 +175,231 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8046351824848132004509A5 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				8046351924848132004509A5 /* include */,
+				8046353224848132004509A5 /* src */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		8046351924848132004509A5 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				8046351A24848132004509A5 /* uECC.h */,
+				8046351B24848132004509A5 /* ripemd160.h */,
+				8046351C24848132004509A5 /* asm_arm.inc.h */,
+				8046351D24848132004509A5 /* uECC_vli.h */,
+				8046351E24848132004509A5 /* libbase58.h */,
+				8046351F24848132004509A5 /* curve-specific.inc */,
+				8046352024848132004509A5 /* types.h */,
+				8046352124848132004509A5 /* sha3.h */,
+				8046352224848132004509A5 /* bip32.h */,
+				8046352324848132004509A5 /* ecdsa.h */,
+				8046352424848132004509A5 /* pbkdf2.h */,
+				8046352524848132004509A5 /* options.h */,
+				8046352624848132004509A5 /* bip39_english.h */,
+				8046352724848132004509A5 /* sha2.h */,
+				8046352824848132004509A5 /* platform-specific.inc */,
+				8046352924848132004509A5 /* hmac.h */,
+				8046352A24848132004509A5 /* secp256k1.table */,
+				8046352B24848132004509A5 /* bip39.h */,
+				8046352C24848132004509A5 /* macros.h */,
+				8046352D24848132004509A5 /* rand.h */,
+				8046352E24848132004509A5 /* curves.h */,
+				8046352F24848132004509A5 /* Bridging-Header.h */,
+				8046353024848132004509A5 /* bignum.h */,
+				8046353124848132004509A5 /* secp256k1.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		8046353224848132004509A5 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				8046353324848132004509A5 /* bip39.c */,
+				8046353424848132004509A5 /* hmac.c */,
+				8046353524848132004509A5 /* sha2.c */,
+				8046353624848132004509A5 /* rand.c */,
+				8046353724848132004509A5 /* curves.c */,
+				8046353824848132004509A5 /* secp256k1.c */,
+				8046353924848132004509A5 /* bignum.c */,
+				8046353A24848132004509A5 /* ripemd160.c */,
+				8046353B24848132004509A5 /* uECC.c */,
+				8046353C24848132004509A5 /* bip32.c */,
+				8046353D24848132004509A5 /* sha3.c */,
+				8046353E24848132004509A5 /* base58.c */,
+				8046353F24848132004509A5 /* ecdsa.c */,
+				8046354024848132004509A5 /* pbkdf2.c */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		8046355224848158004509A5 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8046355324848158004509A5 /* SwiftyEOS */,
+				8046357624848158004509A5 /* Utils */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		8046355324848158004509A5 /* SwiftyEOS */ = {
+			isa = PBXGroup;
+			children = (
+				8046355424848158004509A5 /* Crypto */,
+				8046355624848158004509A5 /* Contract */,
+				8046356224848158004509A5 /* Signature */,
+				8046356424848158004509A5 /* Network */,
+				8046356E24848158004509A5 /* Key */,
+				8046357224848158004509A5 /* Models */,
+			);
+			path = SwiftyEOS;
+			sourceTree = "<group>";
+		};
+		8046355424848158004509A5 /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				8046355524848158004509A5 /* Crypto.swift */,
+			);
+			path = Crypto;
+			sourceTree = "<group>";
+		};
+		8046355624848158004509A5 /* Contract */ = {
+			isa = PBXGroup;
+			children = (
+				8046355724848158004509A5 /* transaction */,
+				8046355A24848158004509A5 /* contract */,
+				8046355C24848158004509A5 /* account */,
+				8046355E24848158004509A5 /* resource */,
+				8046356024848158004509A5 /* currency */,
+			);
+			path = Contract;
+			sourceTree = "<group>";
+		};
+		8046355724848158004509A5 /* transaction */ = {
+			isa = PBXGroup;
+			children = (
+				8046355824848158004509A5 /* TransactionUtil.swift */,
+				8046355924848158004509A5 /* Transaction.swift */,
+			);
+			path = transaction;
+			sourceTree = "<group>";
+		};
+		8046355A24848158004509A5 /* contract */ = {
+			isa = PBXGroup;
+			children = (
+				8046355B24848158004509A5 /* Contract.swift */,
+			);
+			path = contract;
+			sourceTree = "<group>";
+		};
+		8046355C24848158004509A5 /* account */ = {
+			isa = PBXGroup;
+			children = (
+				8046355D24848158004509A5 /* AccountUtil.swift */,
+			);
+			path = account;
+			sourceTree = "<group>";
+		};
+		8046355E24848158004509A5 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				8046355F24848158004509A5 /* ResourceUtil.swift */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		8046356024848158004509A5 /* currency */ = {
+			isa = PBXGroup;
+			children = (
+				8046356124848158004509A5 /* Currency.swift */,
+			);
+			path = currency;
+			sourceTree = "<group>";
+		};
+		8046356224848158004509A5 /* Signature */ = {
+			isa = PBXGroup;
+			children = (
+				8046356324848158004509A5 /* Signature.swift */,
+			);
+			path = Signature;
+			sourceTree = "<group>";
+		};
+		8046356424848158004509A5 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				8046356524848158004509A5 /* Chain */,
+				8046356824848158004509A5 /* History */,
+				8046356B24848158004509A5 /* Base */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		8046356524848158004509A5 /* Chain */ = {
+			isa = PBXGroup;
+			children = (
+				8046356624848158004509A5 /* ChainRouter.swift */,
+				8046356724848158004509A5 /* EOSRPC+Chain.swift */,
+			);
+			path = Chain;
+			sourceTree = "<group>";
+		};
+		8046356824848158004509A5 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				8046356924848158004509A5 /* EOSRPC+History.swift */,
+				8046356A24848158004509A5 /* HistoryRouter.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		8046356B24848158004509A5 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				8046356C24848158004509A5 /* EOSRPC.swift */,
+				8046356D24848158004509A5 /* BaseRouter.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		8046356E24848158004509A5 /* Key */ = {
+			isa = PBXGroup;
+			children = (
+				8046356F24848158004509A5 /* KeyPair.swift */,
+				8046357024848158004509A5 /* PublicKey.swift */,
+				8046357124848158004509A5 /* PrivateKey.swift */,
+			);
+			path = Key;
+			sourceTree = "<group>";
+		};
+		8046357224848158004509A5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8046357324848158004509A5 /* ChainModels.swift */,
+				8046357424848158004509A5 /* Error.swift */,
+				8046357524848158004509A5 /* BigInt.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8046357624848158004509A5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8046357724848158004509A5 /* iOS */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8046357724848158004509A5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8046357824848158004509A5 /* SEWallet.swift */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
 		9B93217D486D6F776991842B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +437,8 @@
 			children = (
 				CC5DD48124834EBD00CD3917 /* Eudeo */,
 				CC5DD48024834EBD00CD3917 /* Products */,
+				8046351824848132004509A5 /* Libraries */,
+				8046355224848158004509A5 /* Sources */,
 				DA4A8FB2B85A706038C8C824 /* Pods */,
 				9B93217D486D6F776991842B /* Frameworks */,
 			);
@@ -138,6 +464,7 @@
 				CC5DD4A42483560B00CD3917 /* Sub classes */,
 				CC5DD49C2483552A00CD3917 /* Navigation */,
 				CC5DD49E2483553E00CD3917 /* Support */,
+				8046358E24848235004509A5 /* EDOEOSUtilities.swift */,
 			);
 			path = Eudeo;
 			sourceTree = "<group>";
@@ -323,6 +650,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8046354324848132004509A5 /* secp256k1.table in Resources */,
 				CC5DD48F24834EBE00CD3917 /* LaunchScreen.storyboard in Resources */,
 				CC5DD48C24834EBE00CD3917 /* Assets.xcassets in Resources */,
 			);
@@ -377,27 +705,65 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8046354524848132004509A5 /* hmac.c in Sources */,
+				8046354724848132004509A5 /* rand.c in Sources */,
 				CC5DD4A62483561A00CD3917 /* EDOSplashViewController.swift in Sources */,
+				8046358024848158004509A5 /* Signature.swift in Sources */,
 				CC5DD4AE2483566600CD3917 /* EDOLogInView.swift in Sources */,
 				CCD5AB4D2484451900915428 /* EDOColor.swift in Sources */,
+				8046354824848132004509A5 /* curves.c in Sources */,
+				8046357E24848158004509A5 /* ResourceUtil.swift in Sources */,
 				CC64D8642484389C000BC168 /* EDOTextField.swift in Sources */,
 				CCD5AB512484476F00915428 /* EDOPostingViewController.swift in Sources */,
 				CCD5AB572484479B00915428 /* EDOPostingView.swift in Sources */,
 				CC5DD49724834F7100CD3917 /* EDONavigationController.swift in Sources */,
 				CCD5AB552484479200915428 /* EDOHomeView.swift in Sources */,
 				CC5DD4AC2483565D00CD3917 /* EDOSplashView.swift in Sources */,
+				8046358D24848158004509A5 /* SEWallet.swift in Sources */,
+				8046354B24848132004509A5 /* ripemd160.c in Sources */,
 				CC5DD4A2248355E200CD3917 /* EDOViewController.swift in Sources */,
+				8046358F24848235004509A5 /* EDOEOSUtilities.swift in Sources */,
 				CC5DD48724834EBD00CD3917 /* EDOPlaceholderViewController.swift in Sources */,
 				CCD5AB59248447A400915428 /* EDOProfileView.swift in Sources */,
+				8046354624848132004509A5 /* sha2.c in Sources */,
+				8046357D24848158004509A5 /* AccountUtil.swift in Sources */,
+				8046358224848158004509A5 /* EOSRPC+Chain.swift in Sources */,
 				CCD5AB4F2484475F00915428 /* EDOHomeViewController.swift in Sources */,
 				CC5DD48324834EBD00CD3917 /* AppDelegate.swift in Sources */,
+				8046358924848158004509A5 /* PrivateKey.swift in Sources */,
 				CC5DD4B02483567000CD3917 /* EDOSignUpView.swift in Sources */,
+				8046358824848158004509A5 /* PublicKey.swift in Sources */,
+				8046358324848158004509A5 /* EOSRPC+History.swift in Sources */,
+				8046354A24848132004509A5 /* bignum.c in Sources */,
+				8046358124848158004509A5 /* ChainRouter.swift in Sources */,
+				8046354424848132004509A5 /* bip39.c in Sources */,
+				8046357C24848158004509A5 /* Contract.swift in Sources */,
+				8046354924848132004509A5 /* secp256k1.c in Sources */,
+				8046354C24848132004509A5 /* uECC.c in Sources */,
+				8046357924848158004509A5 /* Crypto.swift in Sources */,
+				8046357F24848158004509A5 /* Currency.swift in Sources */,
+				8046355024848132004509A5 /* ecdsa.c in Sources */,
+				8046358424848158004509A5 /* HistoryRouter.swift in Sources */,
 				CC5DD4AA2483563700CD3917 /* EDOSignUpViewController.swift in Sources */,
+				8046354124848132004509A5 /* curve-specific.inc in Sources */,
 				CCD5AB532484478900915428 /* EDOProfileViewController.swift in Sources */,
+				8046358B24848158004509A5 /* Error.swift in Sources */,
+				8046354D24848132004509A5 /* bip32.c in Sources */,
+				8046354224848132004509A5 /* platform-specific.inc in Sources */,
+				8046358A24848158004509A5 /* ChainModels.swift in Sources */,
 				CC5DD48524834EBD00CD3917 /* SceneDelegate.swift in Sources */,
+				8046358724848158004509A5 /* KeyPair.swift in Sources */,
+				8046354E24848132004509A5 /* sha3.c in Sources */,
+				8046354F24848132004509A5 /* base58.c in Sources */,
+				8046358624848158004509A5 /* BaseRouter.swift in Sources */,
+				8046357B24848158004509A5 /* Transaction.swift in Sources */,
+				8046358C24848158004509A5 /* BigInt.swift in Sources */,
+				8046357A24848158004509A5 /* TransactionUtil.swift in Sources */,
+				8046355124848132004509A5 /* pbkdf2.c in Sources */,
 				CC5DD49B2483518000CD3917 /* EDOPlaceholderView.swift in Sources */,
 				CC5DD4A82483562500CD3917 /* EDOLogInViewController.swift in Sources */,
 				CC160071248448E100910472 /* EDOTabBarController.swift in Sources */,
+				8046358524848158004509A5 /* EOSRPC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,6 +902,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6F7326ZM4K;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AnyCodable-FlightSchool/AnyCodable.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/BigInt/BigInt.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EosioSwift/EosioSwift.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EosioSwiftAbieosSerializationProvider/EosioSwiftAbieosSerializationProvider.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EosioSwiftEcc/EosioSwiftEcc.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EosioSwiftSoftkeySignatureProvider/EosioSwiftSoftkeySignatureProvider.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PromiseKit/PromiseKit.framework/Headers\"",
+					Libraries/include,
+				);
 				INFOPLIST_FILE = Eudeo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -543,6 +920,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.eudeo.development.Eudeo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Libraries/include/Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -555,6 +933,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6F7326ZM4K;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AnyCodable-FlightSchool/AnyCodable.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/BigInt/BigInt.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EosioSwift/EosioSwift.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EosioSwiftAbieosSerializationProvider/EosioSwiftAbieosSerializationProvider.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EosioSwiftEcc/EosioSwiftEcc.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/EosioSwiftSoftkeySignatureProvider/EosioSwiftSoftkeySignatureProvider.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PromiseKit/PromiseKit.framework/Headers\"",
+					Libraries/include,
+				);
 				INFOPLIST_FILE = Eudeo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -562,6 +951,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.eudeo.development.Eudeo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Libraries/include/Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
